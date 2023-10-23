@@ -1,0 +1,13 @@
+void reachHome(int src, int dest) {
+    
+    cout << "source " << src  << " destination " << dest << endl;
+    if(src == dest) {
+        cout << " pahuch gya " << endl;
+        return ;
+    }
+
+     
+    src++;
+    reachHome(src, dest);
+
+}
